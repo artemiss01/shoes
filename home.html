@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="zxx">
 
 <head>
-	<title>Главная</title>
+	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231222155027">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240117212134">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,920 +14,520 @@
 
 <body>
 	<div class="wrapper">
-		<header id="header" class="header" data-scroll="120" data-scroll-show>
+		<header class="header">
 			<div class="header__container">
 				<div class="header__row">
-					<div class="header__logo logo">SneakMax</div>
-					<div class="header__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li><span class="menu-decor-hover"></span></li>
-								<li class="menu__item"><a data-goto="#catalog" href="#" target="_blank" class="menu__link link-menu">Каталог</a></li>
-								<li class="menu__item"><a data-goto="#about-us" href="#" target="_blank" class="menu__link link-menu">О &nbsp;нас</a></li>
-								<li class="menu__item"><a data-goto="#quiz" href="#" target="_blank" class="menu__link link-menu">Подбор товара</a></li>
-								<li class="menu__item"><a data-goto="#team" href="#" target="_blank" class="menu__link link-menu">Наша команда</a></li>
-								<li class="menu__item"><a data-goto="#questcion-often" href="#" target="_blank" class="menu__link link-menu">Доставка и оплата</a></li>
-								<li class="menu__item"><a data-goto="#contacts" href="#" target="_blank" class="menu__link link-menu">Контакты</a></li>
-								<li class="menu__cart cart" data-da=".header__row,768,2">
-									<a href="#" target="_blank" class="cart__link  link-menu   _icon-cart" data-popup="#popup-cart">Корзина</a>
-									<div class="cart__value">1</div>
-								</li>
-							</ul>
-						</nav>
+					<div class="header__top">
+						<div class="header__logo logo _icon-logo">logoipsum</div>
+						<div class="header__right-item right-item-header">
+							<div class="right-item-header__row">
+								<div class="right-item-header__items right-item-header__items_big">
+									<div class="right-item-header__item item-top-header _icon-clock">
+										<div class="item-top-header__body"><span>BOARDING HOURS</span> <span>Mon - Sat: 7:00 am - 6:00 pm</span></div>
+									</div>
+								</div>
+								<div class="right-item-header__items right-item-header__items_small">
+									<a href="tel:+555" class="right-item-header__item item-top-header _icon-phone" aria-label="call us">
+										<span class="item-top-header__body">
+											<span class="item-top-header__info-txt">CALL US</span> <span class="item-top-header__info-txt">(555) Pup-Cares</span>
+										</span>
+									</a>
+								</div>
+								<div class="right-item-header__items">
+									<div class="right-item-header__item item-top-header">
+										<button type="button" class="item-top-header__btn red-btn red-btn_narrow">Make an Appointment</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="header__menu-burger menu-icon4 icon-menu " aria-label="menu mobile button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
 					</div>
-
-					<button type="button" class="header__menu-icon icon-menu menu-text">
-						<i></i>
-						<span class="menu-text__txt">
-							<span class="menu-text__label-close">close</span>
-							<span class="menu-text__label-open">menu</span>
-						</span>
-					</button>
+					<div class="header__bottom bottom-header">
+						<div class="bottom-header__inner">
+							<div class="bottom-header__left-item">
+								<div class="bottom-header__menu menu">
+									<nav class="menu__body">
+										<ul class="menu__list">
+											<li class="menu__item">
+												<a data-goto=".services" target="_blank" href="#" class="menu__link link-menu">Services</a>
+												<svg class="menu__arrow" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.06 0.529999L4 3.58333L0.94 0.529999L0 1.47L4 5.47L8 1.47L7.06 0.529999Z" fill="#F2726F" />
+												</svg>
+												<ul class="menu__sub-menu sub-menu">
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+												</ul>
+											</li>
+											<li class="menu__item"><a target="_blank" href="#" class="menu__link link-menu">Specials</a></li>
+											<li class="menu__item"><a target="_blank" href="#" class="menu__link link-menu">Facilities</a></li>
+											<li class="menu__item"><a data-goto=".stats" target="_blank" href="#" class="menu__link link-menu">Reviews</a></li>
+											<li class="menu__item"><a target="_blank" href="#" class="menu__link link-menu">Shop</a>
+												<svg class="menu__arrow" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.06 0.529999L4 3.58333L0.94 0.529999L0 1.47L4 5.47L8 1.47L7.06 0.529999Z" fill="#F2726F" />
+												</svg>
+												<ul class="menu__sub-menu sub-menu">
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu menu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu menu menu</a></li>
+													<li class="sub-menu__item"><a href="#" target="_blank" class="sub-menu__link link-menu">submenu</a></li>
+												</ul>
+											</li>
+											<li class="menu__item"><a data-goto=".about" target="_blank" href="#" class="menu__link link-menu">About</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="bottom-header__right-item">
+								<button data-da=".header__top,768,2" class="bottom-header__search-btn _icon-search" data-popup="#popup-search" aria-label="search button"></button>
+								<a data-da=".header__top,768,2" href="#" target="_blank" class="bottom-header__link-cart cart _icon-cart" aria-label="cart link">
+									<span class="cart__value">2</span>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__hero hero">
+			<section class="page__hero hero" data-watch>
 				<div class="hero__container">
-					<div class="hero__txt-bg">SneakMax</div>
 					<div class="hero__info">
-						<h1 class="hero__title">Кроссовки известных брендов с доставкой по России и СНГ</h1>
-						<p data-typing class="hero__subtitle">Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse и многие другие по низким ценам</p>
-						<button data-goto=".catalog" type="button" class="hero__btn btn-red">Перейти к покупкам</button>
+						<h1 class="hero__title">Premier dog boarding, daycare & day spa</h1>
+						<button class="hero__btn-red red-btn">Make an Appointment</button>
 					</div>
 				</div>
 			</section>
-			<section id="catalog" class="page__catalog catalog" data-watch="navigator" data-watch-threshold="0.3">
-				<div class="catalog__container">
-					<h2 class="catalog__caption title-medium">Каталог</h2>
-					<button class="catalog__btn-open-filter" aria-label="кнопка открыть фильтр"><span></span></button>
-					<div class="catalog__row">
-						<div class="catalog__wrapper-aside-filter">
-							<aside class="catalog__aside-filter aside-filter">
-								<h3 class="aside-filter__title title-small">Подбор по параметрам</h3>
-								<div class="aside-filter__range-price range-price">
-									<div class="range-price__caption caption-aside">Цена, руб</div>
-									<div class="range-price__wrapper">
-										<div class="range-price__inputs">
-											<label class="range-price__label">
-												<input type="number" min="0" max="999999" class="range-price__input" id="input-0" placeholder="1850">
-											</label>
-											<label class="range-price__label">
-												<input type="number" min="0" max="999999" class="range-price__input" id="input-1" placeholder="25768">
-											</label>
-										</div>
-										<div id="range" class="range-price__range"></div>
-									</div>
-								</div>
-								<div class="aside-filter__gender gender">
-									<div class="gender__caption caption-aside">Пол</div>
-									<form action="#" class="gender__form">
-										<div class="gender__checkbox checkbox">
-											<input id="male" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="male" class="checkbox__label"><span class="checkbox__text">мужской</span></label>
-										</div>
-										<div class="gender__checkbox checkbox">
-											<input id="female" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="female" class="checkbox__label"><span class="checkbox__text">женский</span></label>
-										</div>
-									</form>
-								</div>
-								<div class="aside-filter__size sizes">
-									<div class="sizes__caption caption-aside">Размер</div>
-									<ul class="sizes__list">
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 35">35</button></li>
-										<li class="sizes__items">
-											<button class="sizes__button no-size choose-size" aria-label="size 36">36</button>
-											<div role="tooltip" class="size__tooltip tooltip">Размера нет в наличии</div>
-										</li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 37">37</button></li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 38">38</button></li>
-										<li class="sizes__items">
-											<button class="sizes__button choose-size no-size" aria-label="size 39">39</button>
-											<div role="tooltip" class="size__tooltip tooltip">Размера нет в наличии</div>
-										</li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 40">40</button></li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 41">41</button></li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 42">42</button></li>
-										<li class="sizes__items"><button class="sizes__button choose-size" aria-label="size 43">43</button></li>
-									</ul>
-								</div>
-								<button class="aside-filter__btn-applay btn-grey">Применить</button>
-								<button class="aside-filter__btn-reset">сбросить</button>
-							</aside>
-							<button class="catalog__btn-close-filter" aria-label="закрыть фильтр"></button>
+			<section class="page__about about" data-watch data-watch-threshold="0.4" data-watch-once>
+				<div class="about__content">
+					<div class="about__container">
+						<div class="about__info">
+							<div class="about__label-top top-label top-label_white _icon-decor-arrow">Who we are</div>
+							<h2 class="about__title title-large title-large_white">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+							<p class="about__subtitle subtitle-txt subtitle-txt_white">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
 						</div>
-						<div class="catalog__product">
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" data-popup="#popup-show-card" aria-label="посмотреть товар">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="добавить в корзину"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title" data-popup="#popup-show-card">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
+						<div class="about__decor-ibg">
+							<picture><source data-srcset="img/bg/decor-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/decor-bg.png" alt="bg"></picture>
+						</div>
+						<div class="about__cercle-decor-ibg">
+							<picture><source data-srcset="img/bg/Stylize-Circles.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Stylize-Circles.png" alt="bg"></picture>
+						</div>
+					</div>
+					<div class="about__img-ibg">
+						<picture><source data-srcset="img/bg/dog-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/dog-bg.jpg" alt="bg"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-promise promise-our">
+				<div class="promise-our__container">
+					<div class="promise-our__label top-label top-label_purple _icon-decor-arrow">OUR PROMISE TO YOU</div>
+					<h2 class="promise-our__title title-large title-large_black">Sed perspiciatis omnis iste natus</h2>
+					<div class="promise-our__row">
+						<div class="promise-our__items">
+							<div class="promise-our__item item-promise-our">
+								<picture><source data-srcset="img/card-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="item-promise-our__img" data-src="img/card-img/01.png" alt="image"></picture>
+								<div class="item-promise-our__body">
+									<h4 class="item-promise-our__title title-small">24/7 Love & Care</h4>
+									<p class="item-promise-our__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas</p>
 								</div>
 							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
+						</div>
+						<div class="promise-our__items">
+							<div class="promise-our__item item-promise-our">
+								<picture><source data-srcset="img/card-img/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="item-promise-our__img" data-src="img/card-img/02.png" alt="image"></picture>
+								<div class="item-promise-our__body">
+									<h4 class="item-promise-our__title title-small">On-site Veterinarian</h4>
+									<p class="item-promise-our__txt subtitle-txt subtitle-txt_gray">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</p>
 								</div>
 							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
+						</div>
+						<div class="promise-our__items">
+							<div class="promise-our__item item-promise-our">
+								<picture><source data-srcset="img/card-img/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="item-promise-our__img" data-src="img/card-img/03.png" alt="image"></picture>
+								<div class="item-promise-our__body">
+									<h4 class="item-promise-our__title title-small">Live-stream Camerasn</h4>
+									<p class="item-promise-our__txt subtitle-txt subtitle-txt_gray">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.</p>
 								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-							<div class="catalog__item">
-								<div class="catalog__card card-product">
-									<div class="card-product__image-ibg">
-										<picture><source data-srcset="img/product-img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/01.jpg" alt="kedi"></picture>
-										<div class="card-product__hover hover-card">
-											<button class="hover-card__btn-watch-product btn-hover" aria-label="watch product">
-												<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9518 15.0664C18.9518 17.2489 17.1818 19.0176 14.9993 19.0176C12.8168 19.0176 11.0481 17.2489 11.0481 15.0664C11.0481 12.8826 12.8168 11.1139 14.9993 11.1139C17.1818 11.1139 18.9518 12.8826 18.9518 15.0664Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9975 24.1936C19.7575 24.1936 24.1113 20.7711 26.5625 15.0661C24.1113 9.3611 19.7575 5.9386 14.9975 5.9386H15.0025C10.2425 5.9386 5.88875 9.3611 3.4375 15.0661C5.88875 20.7711 10.2425 24.1936 15.0025 24.1936H14.9975Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-											<button class="hover-card__btn-add-product btn-hover _icon-cart" aria-label="add product at cart"></button>
-										</div>
-									</div>
-									<div class="card-product__info">
-										<a href="#" class="card-product__title">Кроссовки Nike Air Force 1 '07 QS</a>
-										<div class="card-product__price">11 000 р</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="catalog__show-more-wrapper">
-								<button class="catalog__show-more-btn btn-red">Показать еще</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section id="about-us" class="page__about-us about-as" data-watch="navigator" data-watch-threshold="0.5">
-				<div class="about-as__container">
-
-					<div class="about-as__info" data-watch data-watch-once data-watch-threshold="1">
-						<h2 class="about-as__title title-medium title-medium_white">Пара слов о нас</h2>
-						<p class="about-as__subtitle">Спорт держит нас в форме. Учит дисциплине. Объединяет нас. Через спорт мы можем менять жизни. В том числе с помощью воодушевляющих историй спортсменов. Чтобы помочь тебе подняться и двигаться вперед. </p>
-						<div class="about-as__autor"><span>SneakMax</span></div>
+			<section class="page__video video-block" data-watch data-watch-once>
+				<div class="video-block__container">
+					<div class="video-block__info">
+						<h2 class="video-block__title title-large title-large_white">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+						<button type="button" class="video-block__btn-red red-btn">Make an Appointment</button>
 					</div>
 				</div>
-				<div class="about-as__decor-ibg">
-					<picture><source srcset="img/other/cercle-decor.webp" type="image/webp"><img src="img/other/cercle-decor.png" alt="decor"></picture>
+				<div class="video-block__dog-decor-ibg">
+					<picture><source data-srcset="img/bg/dog-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/dog-02.png" alt="dog image"></picture>
 				</div>
-			</section>
-			<section id="quiz" class="page__questions questions" data-watch="navigator" data-watch-threshold="0.3">
-				<div class="questions__container">
-					<form class="questions__quiz quiz">
-						<div class="quiz__items">
-							<div class="quiz__content">
-								<div class="quiz__header header-quiz">
-									<h2 class="header-quiz__caption title-medium">Мы подберем идеальную пару для вас</h2>
-									<div class="header-quiz__subtitle">Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями </div>
-								</div>
-								<h3 class="quiz__question title-small">Какой тип кроссовок рассматриваете?</h3>
-								<div class="quiz__row">
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_1" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_2" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_3" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_4" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_5" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-wrapper">
-										<div class="quiz__item item-quiz-ibg">
-											<picture><source data-srcset="img/product-img/pink-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/pink-kedi.jpg" alt="img"></picture>
-										</div>
-										<div class="quiz__checkbox checkbox">
-											<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="c_6" class="checkbox__label"><span class="checkbox__text">кеды</span></label>
-										</div>
-									</div>
-								</div>
-								<div class="quiz__footer footer-quiz">
-									<div class="footer-quiz__count-page">
-
-									</div>
-									<button type="button" class="footer-quiz__btn btn-transparent">Следующий шаг</button>
-								</div>
-							</div>
-						</div>
-						<div class="quiz__items" hidden>
-							<div class="quiz__content">
-								<div class="quiz__header header-quiz">
-									<h2 class="header-quiz__caption title-medium">Мы подберем идеальную пару для вас</h2>
-									<div class="header-quiz__subtitle">Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями </div>
-								</div>
-								<div class="quiz__question title-small">Какой размер вам подойдет?</div>
-								<div class="quiz__row">
-									<div class="quiz__item-questcion-2">
-										<div class="quiz__checkbox checkbox">
-											<input id="s_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="s_1" class="checkbox__label"><span class="checkbox__text">менее 36</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-questcion-2">
-										<div class="quiz__checkbox checkbox">
-											<input id="s_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="s_2" class="checkbox__label"><span class="checkbox__text">36-38</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-questcion-2">
-										<div class="quiz__checkbox checkbox">
-											<input id="s_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="s_3" class="checkbox__label"><span class="checkbox__text">39-41</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-questcion-2">
-										<div class="quiz__checkbox checkbox">
-											<input id="s_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="s_4" class="checkbox__label"><span class="checkbox__text">42-44</span></label>
-										</div>
-									</div>
-									<div class="quiz__item-questcion-2">
-										<div class="quiz__checkbox checkbox">
-											<input id="s_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="s_5" class="checkbox__label"><span class="checkbox__text">45 и больше</span></label>
-										</div>
-									</div>
-								</div>
-								<div class="quiz__image-ibg"><picture><source data-srcset="img/product-img/big-img-kedi.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/big-img-kedi.jpg" alt="gggg"></picture></div>
-								<div class="quiz__footer footer-quiz">
-									<div class="footer-quiz__count-page">
-
-									</div>
-									<button type="button" class="footer-quiz__btn btn-transparent">Следующий шаг</button>
-								</div>
-							</div>
-						</div>
-						<div class="quiz__items" hidden>
-							<div class="quiz__content">
-								<div class="quiz__header header-quiz">
-									<div class="header-quiz__caption title-medium">Мы подберем идеальную пару для вас</div>
-									<div class="header-quiz__subtitle">Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями </div>
-								</div>
-								<div class="quiz__question title-small">Уточните какие-либо моменты</div>
-								<div class="quiz__item-question-3">
-									<textarea autocomplete="off" name="form[]" placeholder="Введите сообщение" data-error="Ошибка" class="item-quiz__textarea"></textarea>
-								</div>
-								<div class="quiz__footer footer-quiz">
-									<div class="footer-quiz__count-page"></div>
-									<button type="button" class="footer-quiz__btn btn-transparent">Следующий шаг</button>
-								</div>
-							</div>
-						</div>
-					</form>
-					<div class="questions__selection-product product-selection" hidden>
-						<div class="product-selection__header">
-							<div class="product-selection__title title-medium">Ваша подборка готова!</div>
-							<div class="product-selection__subtitle">Оставьте свои контактные данные, чтобы бы мы могли отправить подготовленный для вас каталог</div>
-						</div>
-						<div class="product-selection__wrapper-form">
-							<form data-dev action="#" class="product-selection__form form-product-selection">
-								<div class="form-product-selection__caption">Получить предложение</div>
-								<div class="form-product-selection__subtitle">Получите подборку подходящих для вас моделей на почту</div>
-								<input data-required data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-product-selection__input">
-								<input data-required="email" data-validate autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="E-mail" class="form-product-selection__input">
-								<button type="submit" class="form-product-selection__btn btn-red">Получить</button>
-							</form>
-
-							<div class="product-selection__img-phone">
-								<div class="product-selection__image-ibg">
-									<picture><source data-srcset="img/other/iPhone.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/other/iPhone.png" alt="img"></picture>
-								</div>
-								<div class="send-letter">
-									<div class="send-letter__image-ibg"><picture><source data-srcset="img/other/Screen.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/other/Screen.png" alt="img"></picture></div>
-									<div class="send-letter__txt _icon-chek">Отправлено</div>
-								</div>
-							</div>
-						</div>
-
+				<div class="video-block__blob-ibg">
+					<picture><source data-srcset="img/bg/Blob-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Blob-02.png" alt="image"></picture>
+				</div>
+				<div class="video-block__cercle-decor-ibg">
+					<picture><source data-srcset="img/bg/Stylize-Circles-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Stylize-Circles-02.png" alt="img"></picture>
+				</div>
+				<div class="video-block__line-dot-decor-ibg">
+					<picture><source data-srcset="img/bg/Line-dot.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Line-dot.png" alt="decor image"></picture>
+					<div class="video-block__ball-decor-ibg">
+						<picture><source data-srcset="img/bg/tennis-ball.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/tennis-ball.png" alt="ball decor image"></picture>
 					</div>
 				</div>
 			</section>
-			<section id="team" class="page__team our-team" data-watch="navigator" data-watch-threshold="0.1">
-				<div class="our-team__decor"></div>
-				<div class="our-team__container">
-					<h2 class="our-team__title title-medium title-medium_white">Наша команда</h2>
-					<div class="our-team__row" data-watch data-watch-once>
-						<div class="our-team__column" data-watch>
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/01.jpg" alt="img"></picture>
+			<section class="page__our-services services">
+				<div class="services__container">
+					<div class="services__label top-label top-label_purple _icon-decor-arrow">Our Services</div>
+					<h2 class="services__title title-large title-large_black">Sed perspiciatis omnis iste natus</h2>
+					<div class="services__row">
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/04.png" alt="image card"></picture>
 								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-						<div class="our-team__column">
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/02.jpg" alt="img"></picture>
-								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-						<div class="our-team__column">
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/03.jpg" alt="img"></picture>
-								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-						<div class="our-team__column">
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/04.jpg" alt="img"></picture>
-								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-						<div class="our-team__column">
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/05.jpg" alt="img"></picture>
-								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-						<div class="our-team__column">
-							<article class="our-team__card card-our-team">
-								<div class="card-our-team__img-ibg">
-									<picture><source data-srcset="img/our-team/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/our-team/06.jpg" alt="img"></picture>
-								</div>
-								<div class="card-our-team__info">
-									<h3 class="card-our-team__title">Максим Золотарев</h3>
-									<div class="card-our-team__post">Администратор</div>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="questcion-often" class="page__often-questcion questcion-often" data-watch="navigator" data-watch-threshold="0.8">
-				<div class="questcion-often__container">
-					<h2 class="questcion-often__title title-medium">Часто задаваемые вопросы</h2>
-					<div data-spollers data-spoller-spead="200" class="questcion-often__spollers spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Вопрос 1</button>
-							<div class="spollers__body">А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</div>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Вопрос 2</button>
-							<div class="spollers__body">А это ответ 1: в комплексе функционируют 6 детских садов с площадками, воспитателями и всякими другими людьми</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="contacts" class="page__contacts contacts" data-watch="navigator" data-watch-threshold="0.6">
-				<div class="contacts__container">
-					<div class="contacts__row">
-						<div class="contacts__info info-contacts">
-							<h2 class="info-contacts__caption title-medium">Контакты</h2>
-							<div class="info-contacts__item">
-								<div class="info-contacts__title-inner">
-									<h4 class="info-contacts__title">Главный офис</h4>
-									<div class="info-contacts__tooltip-inner" tabindex="1">?
-										<div class="info-contacts__tooltip">Адрес и телефон для корреспонденции, инвесторов. Вопросы о доставке, качестве обслуживания и товара просьба задавать в отдел продаж</div>
-									</div>
-								</div>
-								<a href="tel:+78007898989" class="info-contacts__phone">+7 800 789 89 89</a>
-								<div class="info-contacts__addres">г. Санкт-Петербург, Комсомольская, 43 к1</div>
-							</div>
-							<div class="info-contacts__item">
-								<div class="info-contacts__title-inner info-contacts__title-inner_margin-small">
-									<h4 class="info-contacts__title">отдел продаж</h4>
-								</div>
-								<a href="tel:+78007898989" class="info-contacts__phone">+7 800 789 89 89</a>
-								<div class="info-contacts__addres">г. Санкт-Петербург, Комсомольская, 43 к1</div>
-							</div>
-							<div class="info-contacts__social social-contacts">
-								<a href="#" target="_blank" class="social-contacts__link" aria-label="кнопка вконтакте">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1508 13.6689C13.1508 13.6689 13.5743 13.6229 13.7912 13.3954C13.9898 13.1869 13.9829 12.7935 13.9829 12.7935C13.9829 12.7935 13.9565 10.9565 14.8299 10.6853C15.6908 10.4185 16.796 12.4618 17.9691 13.2474C18.8551 13.8415 19.5277 13.7115 19.5277 13.7115L22.6622 13.6689C22.6622 13.6689 24.3012 13.5702 23.5242 12.3116C23.4599 12.2085 23.0708 11.3802 21.1942 9.6788C19.2281 7.89784 19.4921 8.18588 21.8588 5.10479C23.3004 3.22856 23.8766 2.0831 23.6964 1.59331C23.5253 1.12481 22.4648 1.24922 22.4648 1.24922L18.9366 1.27051C18.9366 1.27051 18.6749 1.23577 18.481 1.34897C18.2916 1.45993 18.1688 1.71884 18.1688 1.71884C18.1688 1.71884 17.611 3.17028 16.8661 4.40541C15.2948 7.01016 14.667 7.14802 14.4099 6.98662C13.8119 6.60891 13.9611 5.47129 13.9611 4.66319C13.9611 2.13802 14.3536 1.08558 13.1978 0.813226C12.8145 0.722441 12.5321 0.663038 11.5508 0.652951C10.2917 0.640622 9.2266 0.657434 8.62288 0.945481C8.22117 1.13714 7.91127 1.56529 8.10065 1.58994C8.33365 1.62021 8.86161 1.72892 9.14167 2.10103C9.50321 2.58186 9.49058 3.66007 9.49058 3.66007C9.49058 3.66007 9.69833 6.63245 9.00508 7.00119C8.52991 7.25449 7.87799 6.7378 6.47658 4.37402C5.75923 3.16356 5.21749 1.82531 5.21749 1.82531C5.21749 1.82531 5.11304 1.57537 4.92596 1.44088C4.69985 1.27836 4.38422 1.22792 4.38422 1.22792L1.03162 1.24922C1.03162 1.24922 0.52776 1.26267 0.342971 1.47674C0.178842 1.66616 0.330346 2.05956 0.330346 2.05956C0.330346 2.05956 2.95526 8.05699 5.92795 11.0798C8.65387 13.8504 11.7482 13.6689 11.7482 13.6689H13.1508Z" fill="white" />
-									</svg>
-								</a>
-								<a href="#" target="_blank" class="social-contacts__link" aria-label="кнопка инстаграмм">
-									<svg width="23px" height="23px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#ffffff">
-												<g id="icons" transform="translate(56.000000, 160.000000)">
-													<path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"></path>
-												</g>
-											</g>
-										</g>
-									</svg>
-								</a>
+								<h4 class="item-services__title title-small">Pet Boarding (No Cages)</h4>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
 							</div>
 						</div>
-						<div class="contacts__map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511631.13828356797!2d29.435346554920653!3d59.93945738198798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2s!4v1702409620951!5m2!1sru!2s" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/05.png" alt="image card"></picture>
+								</div>
+								<h4 class="item-services__title title-small">Pet Daycare</h4>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
+							</div>
+						</div>
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/06.png" alt="image card"></picture>
+								</div>
+								<h3 class="item-services__title title-small">Pet Day Spa & Grooming</h3>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
+							</div>
+						</div>
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/07.png" alt="image card"></picture>
+								</div>
+								<h3 class="item-services__title title-small">Custom Meal Plans</h3>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
+							</div>
+						</div>
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/08.png" alt="image card"></picture>
+								</div>
+								<h3 class="item-services__title title-small">Pet Training</h3>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
+							</div>
+						</div>
+						<div class="services__items" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="services__item item-services">
+								<div class="item-services__img">
+									<picture><source data-srcset="img/card-img/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/09.png" alt="image card"></picture>
+								</div>
+								<h4 class="item-services__title title-small">Shop Our Store!</h4>
+								<p class="item-services__txt subtitle-txt subtitle-txt_gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
+							</div>
 						</div>
 					</div>
+					<div class="services__wrapper-link">
+						<a href="#" class="services__link red-btn">Learn More</a>
+					</div>
+				</div>
+				<div class="services__decor-ibg-big-blob">
+					<picture><source data-srcset="img/bg/Blob-big.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Blob-big.png" alt="bg image"></picture>
 				</div>
 			</section>
-			<section class="page__touch-keep keep-touch">
-				<div class="keep-touch__container">
-					<div class="keep-touch__row">
-						<div class="keep-touch__call-back call-back">
-							<h2 class="call-back__title title-medium title-medium_white">Есть вопросы?</h2>
-							<p class="call-back__txt">Заполните форму и наш менеджер свяжется с вами</p>
-							<form action="/" class="call-back__form form-call-back">
-								<input data-required data-validate autocomplete="off" type="text" name="form[]" data-error="введите имя" placeholder="Ваше имя" class="form-call-back__input form-call-back__input_name">
-								<input data-required data-validate autocomplete="off" type="tel" name="form[]" data-error="введите номер телефона" placeholder="Номер телефона" class="form-call-back__input form-call-back__input_phone">
-								<button type="submit" class="form-call-back__button btn-red">Отправить</button>
+			<section class="page__appointment appointment-block">
+				<div class="appointment-block__container">
+					<div class="appointment-block__row">
+						<div class="appointment-block__left-item">
+							<h2 class="appointment-block__title title-large">Make an appointment</h2>
+							<form action="#" class="appointment-block__form form-appointment">
+								<div class="form-appointment__items">
+									<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Name" class="form-appointment__input">
+								</div>
+								<div class="form-appointment__items">
+									<input autocomplete="off" type="email" name="form[]" data-error="error" placeholder="Email" class="form-appointment__input">
+								</div>
+								<div class="form-appointment__items">
+									<input autocomplete="off" type="tel" name="form[]" data-error="error" placeholder="Phone Number" class="form-appointment__input">
+								</div>
+								<div class="form-appointment__items">
+									<select name="form[]" class="appointment-select">
+										<option value="" selected>Select Service</option>
+										<option value="2">points 1</option>
+										<option value="3">points 2</option>
+										<option value="4">points 3</option>
+									</select>
+								</div>
+								<div class="form-appointment__items form-appointment__items_big">
+									<textarea class="form-appointment__textarea" name="textarea" placeholder="Tell us about your puppers include his/her name"></textarea>
+								</div>
+								<div class="form-appointment__btn-wrapper">
+									<button type="submit" class="form-appointment__btn red-btn">Make an Appointment</button>
+								</div>
 							</form>
 						</div>
-						<div class="keep-touch__inst-gallery gallery-inst">
-							<div class="gallery-inst__logo">
-								<img src="img/icons/Instagram_logo.svg" alt="логотип">
+						<div class="appointment-block__right-item right-item-appointment">
+							<h3 class="right-item-appointment__title title-mini">Maxime placeat facere possimus omnis </h3>
+							<div class="right-item-appointment__number number-anim">
+								<div data-number="5" data-time="2000" data-step="1" class="number-anim__item">1</div>
+								<span>,</span>
+								<div data-number="700" data-time="2000" data-step="4" class="number-anim__item">0</div>
+								<span>+</span>
 							</div>
-							<div data-gallery-2 class="gallery-inst__row">
-								<a href="img/inst-gallery/01.jpg" class="gallery-inst__img gallery-inst__img_small">
-									<picture><source data-srcset="img/inst-gallery/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/inst-gallery/01.jpg" alt="img"></picture>
-								</a>
-								<a href="img/inst-gallery/02.jpg" class="gallery-inst__img gallery-inst__img_big">
-									<picture><source data-srcset="img/inst-gallery/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/inst-gallery/02.jpg" alt="img"></picture>
-								</a>
-								<a href="img/inst-gallery/03.jpg" class="gallery-inst__img gallery-inst__img_small">
-									<picture><source data-srcset="img/inst-gallery/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/inst-gallery/03.jpg" alt="img"></picture>
-								</a>
-								<a href="img/inst-gallery/04.jpg" class="gallery-inst__img gallery-inst__img_small">
-									<picture><source data-srcset="img/inst-gallery/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/inst-gallery/04.jpg" alt="img"></picture>
-								</a>
-								<a href="img/inst-gallery/05.jpg" class="gallery-inst__img gallery-inst__img_small">
-									<picture><source data-srcset="img/inst-gallery/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/inst-gallery/05.jpg" alt="img"></picture>
-								</a>
+							<div class="right-item-appointment__info title-small title-small_white">customers served</div>
+						</div>
+					</div>
+					<div class="appointment-block__decor-ibg">
+						<picture><source data-srcset="img/bg/Blob-03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Blob-03.png" alt="image decor"></picture>
+					</div>
+					<div class="appointment-block__cercle-decor-ibg">
+						<picture><source data-srcset="img/bg/Stylize-Circles-03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Stylize-Circles-03.png" alt="image decor"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery galerry-block">
+				<div class="galerry-block__content">
+					<div class="galerry-block__container">
+						<div class="galerry-block__label-top top-label top-label_white _icon-decor-arrow">GALLERY & LIVE STREAMS</div>
+						<h2 class="galerry-block__title title-large title-large_white">Check out our hard workers</h2>
+						<div data-tabs class="galerry-block__tabs tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">Gallery</button>
+								<button type="button" class="tabs__title">Live stream: Yard 1 <span class="active-stream"></span></button>
+								<button type="button" class="tabs__title">Live stream: Yard 2 <span class="active-stream"></span></button>
+								<button type="button" class="tabs__title">Live stream: Yard 3 <span class="not-actve-stream"></span></button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body tabs__body_txt-ibg">
+									1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio exercitationem, excepturi similique nulla, voluptatem reprehenderit neque a minima eaque tenetur? Quos fugit voluptate enim quo sed, minima error molestias!
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__stream-ibg">
+										<picture><source data-srcset="img/bg/stream01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/stream01.jpg" alt="img"></picture>
+										<div class="tabs__label-live live-label">Live</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__stream-ibg">
+										<picture><source data-srcset="img/bg/duotone.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/duotone.jpg" alt="img"></picture>
+										<div class="tabs__label-live live-label">Live</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="tabs__stream-ibg">
+										<picture><source data-srcset="img/bg/duotone02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/duotone02.png" alt="img"></picture>
+										<div class="tabs__label-live live-label">Live</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+			<section class="page__customers customers">
+				<div class="customers__container">
+					<div class="customers__row">
+						<div class="customers__items item-customer item-customer_big ">
+							<div class="item-customer__info">
+								<div class="item-customer__label-top top-label top-label_purple _icon-decor-arrow">Our CUSTOMERS</div>
+								<h2 class="item-customer__title title-large title-large_black">Illum qui dolorem eum quo voluptas ut distinctio</h2>
+							</div>
+						</div>
+						<div class="customers__items item-customer" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="item-customer__body">
+								<p class="item-customer__subtitle subtitle-txt subtitle-txt_gray">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”</p>
+								<div class="item-customer__footer">
+									<picture><source srcset="img/card-img/photo-01.webp" type="image/webp"><img src="img/card-img/photo-01.png" alt="image"></picture>
+									<div class="item-customer__name">Cullen Bohannon</div>
+								</div>
+							</div>
+						</div>
+						<div class="customers__items item-customer" data-watch data-watch-threshold="0.5" data-watch-once>
+							<div class="item-customer__body">
+								<p class="item-customer__subtitle subtitle-txt subtitle-txt_gray">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem aspernatur.”</p>
+								<div class="item-customer__footer">
+									<picture><source srcset="img/card-img/photo-02.webp" type="image/webp"><img src="img/card-img/photo-02.png" alt="image"></picture>
+									<div class="item-customer__name">Jennifer Thomas</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="customers__bg-decor-ibg">
+					<picture><source data-srcset="img/bg/big-blob-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/big-blob-02.png" alt="decor image"></picture>
+				</div>
+			</section>
+			<section class="page__stats stats">
+				<div class="stats__container">
+					<div class="stats__label-top top-label top-label_white _icon-decor-arrow">OUR IMPACT</div>
+					<h2 class="stats__title title-large title-large_white">Nemo enim ipsam voluptatem quia voluptas</h2>
+					<div class="stats__row">
+						<div class="stats__items">
+							<div class="stats__item item-stats">
+								<picture><source data-srcset="img/card-img/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/10.png" alt="duck image"></picture>
+								<div class="item-stats__body">
+									<div class="item-stats__number number-anim">
+										<div data-number="3" data-time="1000" data-step="1" class="number-anim__item">1</div>
+										<span>,</span>
+										<div data-number="700" data-time="2000" data-step="5" class="number-anim__item">1</div>
+									</div>
+									<div class="item-stats__aption">puppy baths</div>
+								</div>
+							</div>
+						</div>
+						<div class="stats__items">
+							<div class="stats__item item-stats">
+								<picture><source data-srcset="img/card-img/11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/11.png" alt="house image"></picture>
+								<div class="item-stats__body">
+									<div class="item-stats__number number-anim">
+										<div data-number="4" data-time="1000" data-step="1" class="number-anim__item">1</div>
+										<span>,</span>
+										<div data-number="500" data-time="2000" data-step="2" class="number-anim__item">1</div>
+									</div>
+									<div class="item-stats__aption">dogs boarded</div>
+								</div>
+							</div>
+						</div>
+						<div class="stats__items">
+							<div class="stats__item item-stats">
+								<picture><source data-srcset="img/card-img/12.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/12.png" alt="house image"></picture>
+								<div class="item-stats__body">
+									<div class="item-stats__number number-anim">
+										<div data-number="2" data-time="1000" data-step="1" class="number-anim__item">1</div>
+										<span>,</span>
+										<div data-number="900" data-time="2000" data-step="4" class="number-anim__item">1</div>
+									</div>
+									<div class="item-stats__aption">pups trained</div>
+								</div>
+							</div>
+						</div>
+						<div class="stats__items">
+							<div class="stats__item item-stats">
+								<picture><source data-srcset="img/card-img/13.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card-img/13.png" alt="house image"></picture>
+								<div class="item-stats__body">
+									<div class="item-stats__number number-anim">
+										<div data-number="12" data-time="2000" data-step data-show-one class="number-anim__item">0</div>
+										<span>k+</span>
+									</div>
+									<div class="item-stats__aption">meals served</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="stats__decor-ibg">
+					<picture><source data-srcset="img/bg/Blob-04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/Blob-04.png" alt="decor image"></picture>
+				</div>
+				<div class="stats__decor-dog-ibg">
+					<picture><source data-srcset="img/bg/dog-03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/bg/dog-03.jpg" alt="decor image"></picture>
+				</div>
+			</section>
+			<div class="page__purple-block-info purpple-block">
+				<div class="purpple-block__content">
+					<div class="purpple-block__caption">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+					<button class="purpple-block__btn red-btn">Make an Appointment</button>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__row">
-					<a href="#" data-goto=".hero" class="footer__logo logo">SneakMax</a>
-					<div class="footer__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item"><a data-goto="#catalog" href="#" target="_blank" class="menu__link link-menu">Каталог</a></li>
-								<li class="menu__item"><a data-goto=".about-as" href="#" target="_blank" class="menu__link link-menu">О нас</a></li>
-								<li class="menu__item"><a data-goto=".questions" href="#" target="_blank" class="menu__link link-menu">Подбор товара</a></li>
-								<li class="menu__item"><a data-goto=".our-team" href="#" target="_blank" class="menu__link link-menu">Наша команда</a></li>
-								<li class="menu__item"><a data-goto=".questcion-often" href="#" target="_blank" class="menu__link link-menu">Доставка и оплата</a></li>
-								<li class="menu__item"><a data-goto=".contacts" href="#" target="_blank" class="menu__link link-menu">Контакты</a></li>
+					<div class="footer__right-item right-item-footer">
+						<a data-goto=".hero" href="#" class="right-item-footer__logo logo _icon-logo">logoipsum</a>
+						<p class="right-item-footer__txt subtitle-txt subtitle-txt_gray subtitle-txt_small">This is a blurb
+							about the company sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua
+						</p>
+						<ul class="right-item-footer__social social-media">
+							<li class="social-media__item">
+								<a href="#" class="social-media__link _icon-social-fb" aria-label="link fb"></a>
+							</li>
+							<li class="social-media__item">
+								<a href="#" class="social-media__link _icon-social-twitter" aria-label="link twitter"></a>
+							</li>
+							<li class="social-media__item">
+								<a href="#" class="social-media__link _icon-social-inst" aria-label="link instagramm"></a>
+							</li>
+							<li class="social-media__item">
+								<a href="#" class="social-media__link _icon-social-yotube" aria-label="link youtube"></a>
+							</li>
+						</ul>
+					</div>
+					<div data-spollers="768,max" class="footer__spollers spollers">
+						<div class="spollers__item spollers__item_big">
+							<button type="button" data-spoller class="spollers__title link-menu _icon-arrow-down">EXPLORE LINKS</button>
+							<div class="spollers__body-row row-body">
+								<div class="row-body__items">
+									<div class="row-body__item">
+										<a data-goto=".about" href="#" class="spollers__link link-menu">About</a>
+										<a data-goto=".services" href="#" class="spollers__link link-menu">Services</a>
+										<a href="#" class="spollers__link link-menu">Specials</a>
+										<a href="#" class="spollers__link link-menu">Estimates</a>
+									</div>
+								</div>
+								<div class="row-body__items">
+									<div class="row-body__item">
+										<a data-goto=".stats" href="#" class="spollers__link link-menu">Reviews</a>
+										<a href="#" class="spollers__link link-menu">Shop</a>
+										<a href="#" class="spollers__link link-menu">Careers</a>
+										<a href="#" class="spollers__link link-menu">FAQs</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title link-menu _icon-arrow-down">CONTACT</button>
+							<ul class="spollers__body">
+								<li><span class="spollers__link link-menu _icon-place">321 Pikes Place Parkway Seattle, WA 54321</span></li>
+								<li><a href="tel:+5557654321" class="spollers__link link-menu _icon-smartphone">(555) 765-4321</a></li>
+								<li><a href="mailto:Info@company.com" class="spollers__link spollers__link_letter link-menu _icon-letter">Info@company.com</a></li>
+								<li><span class="spollers__link link-menu _icon-timer">Mon - Sat: 7:000 am - 6:00 pm</span></li>
 							</ul>
-						</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__row">
+					<div class="bottom-footer__item-txt">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</div>
+					<div class="bottom-footer__info">
+						<span class="bottom-footer__copyright">© 2018 Company.</span>
+						<a href="#" target="_blank" class="bottom-footer__link">Privacy Policy</a>
+						<a href="#" target="_blank" class="bottom-footer__link">Terms & Conditions</a>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
 
-	<div id="popup-cart" aria-hidden="true" class="popup popup-cart-mini">
-		<div class="popup-cart-mini__wrapper popup-wrapper">
-			<div class="popup-cart-mini__content popup-content">
-				<div class="popup-cart-mini__list" data-simplebar>
-					<div class="popup-cart-mini__product product-in-cart">
-						<div class="product-in-cart__image-ibg">
-							<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-						</div>
-						<div class="product-in-cart__body">
-							<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-							<div class="product-in-cart__price">8 678 ₽ </div>
-						</div>
-						<button type="button" class="product-in-cart__btn-del _icon-trash" aria-label="delete product from cart"></button>
-					</div>
-					<div class="popup-cart-mini__product product-in-cart">
-						<div class="product-in-cart__image-ibg">
-							<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-						</div>
-						<div class="product-in-cart__body">
-							<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-							<div class="product-in-cart__price">8 789 ₽ </div>
-						</div>
-						<button type="button" class="product-in-cart__btn-del _icon-trash" aria-label="delete product from cart"></button>
-					</div>
-					<div class="popup-cart-mini__product product-in-cart">
-						<div class="product-in-cart__image-ibg">
-							<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-						</div>
-						<div class="product-in-cart__body">
-							<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-							<div class="product-in-cart__price">8 789 ₽ </div>
-						</div>
-						<button type="button" class="product-in-cart__btn-del _icon-trash" aria-label="delete product from cart"></button>
-					</div>
-				</div>
-				<div class="popup-cart-mini__footer footer-cart-mini ">
-					<div class="footer-cart-mini__info">
-						<div class="footer-cart-mini__total">Итого:</div>
-						<div class="footer-cart-mini__price-total">25 789</div>
-					</div>
-					<a href="#" class="footer-cart-mini__btn btn-red btn-red_low">Перейти в корзину</a>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div id="popup-search" aria-hidden="true" class="popup popup-search">
+		<div class="popup-search__wrapper popup-wrapper">
+			<div class="popup-search__content popup-content">
+				<button data-close type="button" class="popup-search__popup-close _icon-close" aria-label="close popup"></button>
+				<form class="popup-search__custom search-box" role="search">
 
-
-	<div id="popup-show-card" aria-hidden="true" class="popup popup-card">
-		<div class="popup-card__wrapper popup-wrapper">
-			<div class="popup-card__content popup-content">
-				<button data-close type="button" class="popup-card__close" aria-label="закрыть попап"></button>
-				<div class="popup-card__hedear header-popup">
-					<div class="header-popup__courusel">
-						<div class="header-popup__slider">
-							<div data-gallery-1 class="header-popup__swiper">
-								<div class="header-popup__slide">
-									<a href="img/product-img/02.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/02.webp" type="image/webp"><img src="img/product-img/02.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-								<div class="header-popup__slide">
-									<a href="img/product-img/pink-kedi.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/pink-kedi.webp" type="image/webp"><img src="img/product-img/pink-kedi.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-								<div class="header-popup__slide">
-									<a href="img/product-img/01.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/01.webp" type="image/webp"><img src="img/product-img/01.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-								<div class="header-popup__slide">
-									<a href="img/product-img/pink-kedi.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/pink-kedi.webp" type="image/webp"><img src="img/product-img/pink-kedi.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-								<div class="header-popup__slide">
-									<a href="img/product-img/01.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/01.webp" type="image/webp"><img src="img/product-img/01.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-								<div class="header-popup__slide">
-									<a href="img/product-img/pink-kedi.jpg" class="header-popup__gallery-img-ibg">
-										<picture><source srcset="img/product-img/pink-kedi.webp" type="image/webp"><img src="img/product-img/pink-kedi.jpg" loading="lazy" alt="кеды"></picture>
-										<div class="swiper-lazy-preloader"></div>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="thumbs__slider">
-							<div class="thumbs__swiper">
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-								<div class="thumbs__slide-ibg">
-									<picture><source srcset="img/product-img/thumbs.webp" type="image/webp"><img src="img/product-img/thumbs.jpg" alt="превью"></picture>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="header-popup__info-product product-info-popup">
-						<div class="product-info-popup__header">
-							<div class="product-info-popup__number-product">Артикул: <span>879876</span></div>
-							<div class="product-info-popup__in-stock">В наличии: <span>13шт</span></div>
-						</div>
-						<div class="product-info-popup__title title-small title-small_lh-big">Женские кроссовки Puma Force&nbsp;1 Shadow</div>
-						<div class=" product-info-popup__rating rating rating_set">
-							<div class="rating__body">
-								<div class="rating__active"></div>
-								<div class="rating__items">
-									<input type="radio" class="rating__item" value="1" name="rating">
-									<input type="radio" class="rating__item" value="2" name="rating">
-									<input type="radio" class="rating__item" value="3" name="rating">
-									<input type="radio" class="rating__item" value="4" name="rating">
-									<input type="radio" class="rating__item" value="5" name="rating">
-								</div>
-							</div>
-							<div class="rating__value">5</div>
-						</div>
-						<div class="product-info-popup__choose-size size-choose">
-							<div class="size-choose__title">Выберите размер</div>
-							<ul class="size-choose__list">
-								<li class="size-choose__item"><button type="button" class="size-choose__btn choose-size" aria-label="размер 36">36</button></li>
-								<li class="size-choose__item"><button type="button" class="size-choose__btn choose-size" aria-label="размер 36">36</button></li>
-								<li class="size-choose__item"><button type="button" class="size-choose__btn choose-size" aria-label="размер 36">36</button></li>
-								<li class="size-choose__item"><button type="button" class="size-choose__btn choose-size" aria-label="размер 36">36</button></li>
-								<li class="size-choose__item"><button type="button" class="size-choose__btn choose-size" aria-label="размер 36">36</button></li>
-							</ul>
-						</div>
-						<div class="product-info-popup__price popup-price">
-							<h2 class="popup-price__new title-medium">19 789</h2>
-							<div class="popup-price__old">20 578</div>
-						</div>
-						<button data-popup="#popup-place-on-order" class="product-info-popup__order btn-red">Заказать</button>
-						<ul class="product-info-popup__more-info info-more">
-							<li class="info-more__item _icon-chek">Бесплатная доставка до двери</li>
-							<li class="info-more__item _icon-chek">Оплата заказа при получении</li>
-							<li class="info-more__item _icon-chek">Обмен в течении двух недель</li>
-						</ul>
-
-					</div>
-				</div>
-				<div class="popup-card__footer footer-popup-card">
-					<div data-spollers="767.98,max" class="footer-popup-card__row">
-						<div class="footer-popup-card__desription">
-							<button type="button" data-spoller class="footer-popup-card__title title-small">Описание</button>
-							<p class="footer-popup-card__text-subtitle">Кроссовки Nike Blazer Mid '77 Vintage Suede с винтажной подошвой возрождают стиль баскетбольных моделей Nike прошлого, создавая впечатление, что они хранились в шкафу долгие годы. </p>
-						</div>
-						<div class="footer-popup-card__desription">
-							<button type="button" data-spoller class="footer-popup-card__title title-small">Характеристики</button>
-							<ul class="footer-popup-card__specification specification">
-								<li class="specification__item">Пол: <span>Мужской</span></li>
-								<li class="specification__item">Цвета: <span>Разноцветный</span></li>
-								<li class="specification__item">Состав: <span>Кожа,текстиль,резина</span></li>
-								<li class="specification__item">Страна: <span>Вьетнам</span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div id="popup-place-on-order" aria-hidden="true" class="popup popup-place-order">
-		<div class="popup-place-order__wrapper popup-wrapper">
-			<div class="popup-place-order__content popup-content">
-				<div class="popup-place-order__header">
-					<div class="popup-place-order__title">Оформление заказа</div>
-					<div class="popup-place-order__numb-order"> <span>Заказ:</span> 3456 67</div>
-				</div>
-				<div class="popup-place-order__body-order order-body">
-					<div class="order-body__info">
-						<div class="order-body__quentity-product">Товаров в заказе: <span>3шт</span></div>
-						<div class="order-body__amount-order">Общая сумма заказа:: <span>25 789 ₽</span></div>
-					</div>
-					<div data-spollers class="order-body__inner">
-						<div class="order-body__structure-order">
-							<button data-spoller type="button" class="order-body__title _spoller-active">Состав заказа</button>
-							<div class="order-body__column">
-								<div class="order-body__product product-in-cart product-in-cart__small-padding">
-									<div class="product-in-cart__image-ibg">
-										<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-									</div>
-									<div class="product-in-cart__body">
-										<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-										<div class="product-in-cart__price">8 678 ₽ </div>
-									</div>
-									<button type="button" class="product-in-cart__btn-del" aria-label="delete product from cart">удалить</button>
-								</div>
-								<div class="order-body__product product-in-cart product-in-cart__small-padding">
-									<div class="product-in-cart__image-ibg">
-										<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-									</div>
-									<div class="product-in-cart__body">
-										<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-										<div class="product-in-cart__price">8 678 ₽ </div>
-									</div>
-									<button type="button" class="product-in-cart__btn-del" aria-label="delete product from cart">удалить</button>
-								</div>
-								<div class="order-body__product product-in-cart product-in-cart__small-padding">
-									<div class="product-in-cart__image-ibg">
-										<picture><source data-srcset="img/product-img/product-img-mini.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/product-img/product-img-mini.jpg" alt="product image"></picture>
-									</div>
-									<div class="product-in-cart__body">
-										<div class="product-in-cart__title">Женские кроссовки Puma Force 1 Shadow</div>
-										<div class="product-in-cart__price">8 678 ₽ </div>
-									</div>
-									<button type="button" class="product-in-cart__btn-del" aria-label="delete product from cart">удалить</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<form action="#" class="popup-place-order__form form-order">
-					<div class="form-order__input-inner">
-						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="form-order__input">
-					</div>
-					<div class="form-order__input-inner">
-						<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="form-order__input">
-					</div>
-					<div class="form-order__input-inner">
-						<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="E-mail" class="form-order__input">
-					</div>
-					<button type="submit" class="form-order__btn btn-red">Оформить заказ</button>
+					<input id="search" class="search-box__input" type="text" placeholder="Search..." autocomplete="off" required>
+					<button class="search-box__btn" type="submit">Go</button>
 				</form>
 			</div>
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20231222155027"></script>
+
+	<script src="js/app.min.js?_v=20240117212134"></script>
 </body>
 
 </html>
