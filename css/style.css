@@ -2047,6 +2047,9 @@ body.popup-show::after {
     transition: transform 1s 1.2s cubic-bezier(0.29, 1.4, 0.44, 0.96);
   }
 }
+.menu__body {
+  min-height: 100%;
+}
 .menu__list {
   position: relative;
   display: flex;
@@ -2074,7 +2077,9 @@ body.popup-show::after {
   .menu__list {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
     row-gap: 1.25rem;
+    min-height: 100vh;
     padding: 5.25rem 1.25rem 1.25rem 1.25rem;
   }
 }
