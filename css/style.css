@@ -148,6 +148,10 @@ h6 {
   overflow: hidden;
   touch-action: none;
 }
+.no-scrolling body {
+  overflow: hidden;
+  touch-action: none;
+}
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -1963,7 +1967,6 @@ body.popup-show::after {
     width: 100%;
     border-bottom-right-radius: 100vw;
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
     background-color: #DBBBA9;
     transition: left 0.3s ease, border-radius 0.8s 0.1s ease;
   }
