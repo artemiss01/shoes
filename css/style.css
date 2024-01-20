@@ -1963,6 +1963,7 @@ body.popup-show::after {
     width: 100%;
     border-bottom-right-radius: 100vw;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     background-color: #DBBBA9;
     transition: left 0.3s ease, border-radius 0.8s 0.1s ease;
   }
@@ -2060,8 +2061,10 @@ body.popup-show::after {
     transition: transform 1s 1.2s cubic-bezier(0.29, 1.4, 0.44, 0.96);
   }
 }
-.menu__body {
-  height: 100vh;
+@media (max-width: 47.99875em) {
+  .menu__body {
+    height: 100vh;
+  }
 }
 .menu__list {
   position: relative;
